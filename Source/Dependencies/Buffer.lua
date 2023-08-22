@@ -1,3 +1,4 @@
+print("j")
 local Buffer = {}
 
 Buffer.Type = "Buffer"
@@ -37,5 +38,7 @@ function Buffer.Interface.new()
 		end,
 	})
 end
+
+print("ret buffer!")
 
 return Buffer.Interface
